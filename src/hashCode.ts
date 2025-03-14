@@ -24,8 +24,8 @@ export function dropHighestNonSignBit(i32: number): number {
     return ((i32 >>> 1) & 0x40000000) | (i32 & 0xBFFFFFFF);
 }
 
-export function hashString(str: string): number {
-    return hashFnv32a(str);
+export function hashString(str: string, seed?: number): number {
+    return hashFnv32a(str, seed);
 }
 
 const NUMBER_BITS = new ArrayBuffer(8);

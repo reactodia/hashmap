@@ -99,9 +99,11 @@ TypeScript interface for a read-only version of a `HashMap` which is compatible 
 
 TypeScript interface for a read-only version of a `HashSet` which is compatible with `ReadonlySet`.
 
-#### `hashString(value: string): number` function
+#### `hashString(value: string, seed?: number): number` function
 
 Utility function to compute a string hash using [FNV-32a](https://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function) algorithm.
+
+Default seed is `0x811c9dc5`.
 
 #### `hashNumber(value: number): number` function
 
