@@ -3,7 +3,7 @@ import { expect, test } from 'vitest';
 import {
     chainHash, dropHighestNonSignBit, hashBigInt, hashNumber, hashString,
     hashTuple, hashValue,
-} from '../src/hashCode';
+} from '../src/hashCode.js';
 
 test('dropHighestNonSignBit()', () => {
     expect(dropHighestNonSignBit(0)).toBe(0);

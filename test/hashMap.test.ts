@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 
-import { HashMap, HashSet } from '../src/hashMap';
-import { hashTuple } from '../src/hashCode';
+import { HashMap, HashSet } from '../src/hashMap.js';
+import { hashTuple } from '../src/hashCode.js';
 
 describe('HashMap', () => {
     it('allows to set and get items by key', () => {
