@@ -111,7 +111,7 @@ Utility function to compute a hash for a JS number:
 
 #### `hashBigInt(value: bigint): number` function
 
-Utility function to compute a hash for a `bigint` value with the following formula: `abs(N) % 0x1_0000_0000` where N is the `bigint` value.
+Utility function to compute a hash for a `bigint` value with the following formula: `abs(N) % 0x8000_0000` where N is the `bigint` value.
 
 #### `hashValue(value: string | number | bigint | boolean | undefined | null)`
 

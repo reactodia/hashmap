@@ -44,7 +44,7 @@ export function hashNumber(num: number): number {
 }
 
 export function hashBigInt(value: bigint): number {
-    return Number((value >= 0n ? value : -value) % 0x100000000n);
+    return Number((value >= 0n ? value : -value) % 0x80000000n);
 }
 
 type PrimitiveValue = string | number | boolean | bigint | undefined | null;

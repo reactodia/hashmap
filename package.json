@@ -4,7 +4,7 @@
     "description": "HashMap and HashSet collections with composite keys and custom hash and equality functions",
     "repository": {
         "type": "git",
-        "url": "git+ssh://git@github.com/reactodia/reactodia-hashmap.git"
+        "url": "git+ssh://git@github.com/reactodia/hashmap.git"
     },
     "keywords": [
         "hashmap",
@@ -17,9 +17,9 @@
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/reactodia/reactodia-hashmap/issues"
+        "url": "https://github.com/reactodia/hashmap/issues"
     },
-    "homepage": "https://github.com/reactodia/reactodia-hashmap#readme",
+    "homepage": "https://github.com/reactodia/hashmap#readme",
     "type": "module",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
