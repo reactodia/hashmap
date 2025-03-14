@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es2021",
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "useUnknownInCatchVariables": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "skipLibCheck": true,
+        "noEmit": true,
+    }
+}

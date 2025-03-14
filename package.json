@@ -1,0 +1,47 @@
+{
+    "name": "@reactodia/hashmap",
+    "version": "0.1.0",
+    "description": "HashMap and HashSet collections with composite keys and custom hash and equality functions",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/reactodia/reactodia-hashmap.git"
+    },
+    "keywords": [
+        "hashmap",
+        "hashset",
+        "hashcode"
+    ],
+    "author": {
+        "name": "Alexey Morozov",
+        "url": "https://github.com/AlexeyMz"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/reactodia/reactodia-hashmap/issues"
+    },
+    "homepage": "https://github.com/reactodia/reactodia-hashmap#readme",
+    "type": "module",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc --project tsconfig.build.json",
+        "test": "vitest",
+        "typecheck": "tsc",
+        "clean": "rimraf dist"
+    },
+    "devDependencies": {
+        "rimraf": "^6.0.1",
+        "typescript": "^5.8.2",
+        "vitest": "^3.0.8"
+    },
+    "files": [
+        "dist",
+        "src",
+        "CHANGELOG.md",
+        "LICENSE.md",
+        "package.json",
+        "README.md",
+        "tsconfig.json",
+        "tsconfig.build.json"
+    ]
+}
