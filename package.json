@@ -20,9 +20,6 @@
         "url": "https://github.com/reactodia/hashmap/issues"
     },
     "homepage": "https://github.com/reactodia/hashmap#readme",
-    "type": "module",
-    "main": "dist/index.js",
-    "typings": "dist/index.d.ts",
     "scripts": {
         "build": "tsc --project tsconfig.build.json",
         "test": "vitest",
@@ -34,6 +31,9 @@
         "typescript": "^5.8.2",
         "vitest": "^3.0.8"
     },
+    "type": "module",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
     "files": [
         "dist",
         "src",
