@@ -1,6 +1,6 @@
 {
     "name": "@reactodia/hashmap",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "HashMap and HashSet collections with composite keys and custom hash and equality functions",
     "repository": {
         "type": "git",
@@ -27,9 +27,9 @@
         "clean": "rimraf dist"
     },
     "devDependencies": {
-        "rimraf": "^6.0.1",
-        "typescript": "^5.8.2",
-        "vitest": "^3.0.8"
+        "rimraf": "^6.1.0",
+        "typescript": "^5.9.3",
+        "vitest": "^4.0.8"
     },
     "type": "module",
     "main": "dist/index.js",
