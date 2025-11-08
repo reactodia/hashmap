@@ -1,6 +1,6 @@
 {
     "name": "@reactodia/hashmap",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "HashMap and HashSet collections with composite keys and custom hash and equality functions",
     "repository": {
         "type": "git",
