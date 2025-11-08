@@ -146,19 +146,19 @@ export class HashMap<K, V> implements ReadonlyMap<K, V> {
         }
     }
 
-    keys(): IterableIterator<K> {
+    keys(): MapIterator<K> {
         return this._map.keys();
     }
 
-    values(): IterableIterator<V> {
+    values(): MapIterator<V> {
         return this._map.values();
     }
 
-    entries(): IterableIterator<[K, V]> {
+    entries(): MapIterator<[K, V]> {
         return this._map.entries();
     }
 
-    [Symbol.iterator](): IterableIterator<[K, V]> {
+    [Symbol.iterator](): MapIterator<[K, V]> {
         return this.entries();
     }
 }
@@ -214,21 +214,21 @@ export class HashSet<K> implements ReadonlyHashSet<K> {
         this._map.forEach((_value, key) => callback(key, key, this));
     }
 
-    keys(): IterableIterator<K> {
+    keys(): SetIterator<K> {
         return this._map.keys();
     }
 
-    values(): IterableIterator<K> {
+    values(): SetIterator<K> {
         return this._map.keys();
     }
 
-    *entries(): IterableIterator<[K, K]> {
+    *entries(): SetIterator<[K, K]> {
         for (const key of this.keys()) {
             yield [key, key];
         }
     }
 
-    [Symbol.iterator](): IterableIterator<K> {
+    [Symbol.iterator](): SetIterator<K> {
         return this._map.keys();
     }
 }
